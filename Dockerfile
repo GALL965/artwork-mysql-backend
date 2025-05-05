@@ -7,7 +7,7 @@ RUN npm install
 
 COPY . .
 
-# Aquí eliminamos cualquier .env interno que pueda existir
+# A
 RUN rm -f .env
 
 EXPOSE 8080
